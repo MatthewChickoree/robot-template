@@ -23,6 +23,8 @@ ${HOST}=                https://www.google.tt
 
 ####  Setup global variables                                                ####
 Environment setup
+  Run Keyword If  '${SELENIUM_BROWSER}'!=''  Set global variable  ${BROWSER}  ${SELENIUM_BROWSER}
+  ...  ELSE  Set global variable  ${BROWSER}  firefox
   Run Keyword If  '${ENVIRONMENT}'=='dev'  develop
   Run Keyword If  '${ENVIRONMENT}'=='test'   test
   Run Keyword If  '${ENVIRONMENT}'=='stage'  stage

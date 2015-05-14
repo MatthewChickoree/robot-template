@@ -1,6 +1,5 @@
 HOST = ''
-BROWSER = 'firefox'
-DEVICE = 'desktop'
+BROWSER = ''
 SELENIUM_DELAY = 0
 
 ####  Applitools variables                                                  ####

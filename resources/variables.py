@@ -11,7 +11,6 @@ APPLITOOLS_EYESLOG = 'True'
 APPLITOOLS_DEBUGLOG = 'False'
 
 ####  Sauce Labs variables                                                  ####
-Sauce Labs Capabilities
 #Sauce Labs URL
 SAUCE_URL = ''\
 #Sauce Labs Capabilities

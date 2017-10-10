@@ -9,6 +9,9 @@
 2. Using pip (installed with Python 2.7.9 and higher) setup Robot-AppEyes https://github.com/NaviNet/Robot-AppEyes
  * Install Robot App Eyes and dependencies <code>pip install Robot-AppEyes</code>
  * Upgrade Robot App Eyes and dependencies <code>pip install --upgrade Robot-AppEyes</code>
+ * Install Additional dependencies:
+    <code>pip install simplejson</code>
+    <code>pip install version</code>
 
 
 ### Installing on Mac OSx
@@ -17,7 +20,9 @@
 2. Using pip (installed with Python 2.7.9 and higher) setup Robot-AppEyes https://github.com/NaviNet/Robot-AppEyes
  * Install Robot App Eyes and dependencies <code>pip install Robot-AppEyes</code>
  * Upgrade Robot App Eyes and dependencies <code>pip install --upgrade Robot-AppEyes</code>
-
+ * Install Additional dependencies:
+    <code>pip install simplejson</code>
+    <code>pip install version</code>
 
 ##  Running the tests
 

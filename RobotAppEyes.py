@@ -27,9 +27,9 @@ from applitools.geometry import Region
 from applitools.eyes import Eyes
 from applitools.utils import _image_utils
 from applitools._webdriver import EyesScreenshot
-from version import VERSION
+#from version import VERSION
 
-_version_ = VERSION
+#_version_ = VERSION
 
 
 class RobotAppEyes:
@@ -71,7 +71,7 @@ class RobotAppEyes:
     | TAG NAME          | Check Eyes Region By Selector `|` TAG NAME          `|` div                      `|`  TagNameElement          | Matches by HTML tag name                        |
     """
     ROBOT_LIBRARY_SCOPE = 'GLOBAL'
-    ROBOT_LIBRARY_VERSION = VERSION
+ #   ROBOT_LIBRARY_VERSION = VERSION
 
     def open_eyes_session(self, url, appname, testname, apikey, width=None,
                           height=None, osname=None, browsername=None,
